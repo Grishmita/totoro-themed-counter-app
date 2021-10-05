@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+
+
+body{
+	background-color:#6B7AA1;
+
+	font-family: 'DotGothic16', sans-serif;
+
+
+}
+
+.counter{
+	width: 50%;
+    margin: 120px auto;
+
+    background-color: #CDF2CA;
+    font-size: 2rem;
+     border-radius: 10px;
+    text-align: center;
+
+    background-image: url('totoro.jpg');
+    background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+
+
+
+h1{
+color:#7FC8A9;
+}
+
+h2{
+	color: #F6A9A9;
+	font-weight: bolder;
+
+}
+
+h3{
+color:#B980F0;
+font-size:3rem;
+font-weight: bolder;
+margin: 5px 0;
+}
+
+
+
+p{
+	color: #C996CC;
+
+	margin:  20px;
+}
+
+
+button{
+	background-color: #B1E693;
+	color: #6ECB63;
+
+	border-style: none;
+   font-family: 'DotGothic16', sans-serif;
+   font-size: 2rem;
+     
+	width: 30%;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+button:hover{
+	background-color:  #6ECB63;
+	color: #B1E693;
+}
+
+
+@media only screen 
+   and (min-width : 320px)and (max-width: 800px) {
+   .counter{
+
+   	width: 90%;
+   }
+
+
+button{
+	font-size: 1rem;
+}
+
+}
